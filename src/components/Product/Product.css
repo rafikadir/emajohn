@@ -1,0 +1,17 @@
+.product {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.product img {
+    margin-right: 10px;
+}
+.prductName {
+    color: cornflowerblue;
+    line-height: 1.4;
+    margin: 0;
+}
+.seller {
+    margin: 0;
+}
