@@ -9,7 +9,7 @@ const Hearder = () => {
             <nav>
                 <a href="/shop">Shop</a>
                 <a href="/review">Review Order</a>
-                <a href="/manage">Manage Order</a>
+                <a href="/inventory">Manage Order</a>
             </nav>
         </div>
     );

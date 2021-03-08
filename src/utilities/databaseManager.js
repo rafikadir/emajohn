@@ -9,7 +9,6 @@ const getUser = () => {
     }
 }
 
-
 const getDataKey = () => {
     const userId = getUser();
     return `emaJohn/carts/${userId}`
@@ -37,7 +36,6 @@ const removeFromDatabaseCart = key => {
 const processOrder = (cart) => {
     localStorage.removeItem(getDataKey());
 }
-
 
 export { addToDatabaseCart, getDatabaseCart, removeFromDatabaseCart, processOrder };
 
